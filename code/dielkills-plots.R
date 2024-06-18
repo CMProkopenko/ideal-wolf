@@ -11,7 +11,7 @@ library(viridis)
 
 
 ###my data 
-data <- fread("data/2021-07-25-Bloc-DielModel.csv")
+data <- fread("data/2021-09-19-Bloc-DielModel.csv")
 
 summary(as.factor(data$PreySpecie))
 
